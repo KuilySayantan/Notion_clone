@@ -7,7 +7,7 @@ const font = Poppins({
   weight: ["400", "600"],
 });
 
-const Logo = () => {
+export const Logo = () => {
   return (
     <div className="hidden md:flex items-center gap-x-2">
       <Image src="/logo.svg" height="40" width="40" className="" alt="Logo" />
@@ -15,5 +15,3 @@ const Logo = () => {
     </div>
   );
 };
-
-export default Logo;

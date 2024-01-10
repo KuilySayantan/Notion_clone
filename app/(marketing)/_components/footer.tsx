@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
-import Logo from "./logo";
+import { Logo } from "./logo";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <div className="flex items-center p-6 bg-background z-50">
       <Logo />
@@ -16,5 +16,3 @@ const Footer = () => {
     </div>
   );
 };
-
-export default Footer;
